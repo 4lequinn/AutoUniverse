@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Empleados"
+        android:icon="@drawable/ic_baseline_groups_24" />
+
+    <item
+        android:id="@+id/navigation_lista_automovil"
+        android:title="Automóviles"
+        android:icon="@drawable/ic_baseline_directions_car_24" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:title="Gestionar Empleado"
+        android:icon="@drawable/ic_baseline_person_24" />
+
+    <item
+        android:id="@+id/navigation_crud_automovil"
+        android:title="Gestionar Automóvil"
+        android:icon="@drawable/ic_baseline_equalizer_24" />
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_24" />
+
+</menu>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navig"
+    app:startDestination="@id/principalFragment">
+
+    <fragment
+        android:id="@+id/principalFragment"
+        android:name="com.examen.automotoraautouniverse.PrincipalFragment"
+        android:label="fragment_principal"
+        tools:layout="@layout/fragment_principal" >
+        <action
+            android:id="@+id/action_principalFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.examen.automotoraautouniverse.SettingsFragment"
+        android:label="SettingsFragment" >
+        <action
+            android:id="@+id/action_settingsFragment_to_principalFragment"
+            app:destination="@id/principalFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crudEmpleadosFragment"
+        android:name="com.examen.automotoraautouniverse.crudEmpleadosFragment"
+        android:label="fragment_crud_empleados"
+        tools:layout="@layout/fragment_crud_empleados" />
+    <fragment
+        android:id="@+id/crudAutomovilFragment"
+        android:name="com.examen.automotoraautouniverse.crudAutomovilFragment"
+        android:label="fragment_crud_automovil"
+        tools:layout="@layout/fragment_crud_automovil" />
+    <fragment
+        android:id="@+id/listaAutomovilFragment"
+        android:name="com.examen.automotoraautouniverse.listaAutomovilFragment"
+        android:label="fragment_lista_automovil"
+        tools:layout="@layout/fragment_lista_automovil" />
+</navigation>

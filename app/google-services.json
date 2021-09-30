@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853058067700",
+    "project_id": "automotora-fcb04",
+    "storage_bucket": "automotora-fcb04.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853058067700:android:5505f0a539bd2e903c92a1",
+        "android_client_info": {
+          "package_name": "com.examen.automotoraautouniverse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853058067700-buc7onoip94fb1k5g415lha0rlgqm2u4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqcFZum_TqFVc_4b7VAvABRg--cGR9Zxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853058067700-buc7onoip94fb1k5g415lha0rlgqm2u4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
